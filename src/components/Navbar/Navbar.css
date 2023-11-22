@@ -1,0 +1,150 @@
+:root{
+  --cor1: #20accf;
+  --cor2: #35b359;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0 auto;
+  background: #f7fbff;
+  font-family:'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+li{
+  list-style:none;
+}
+
+footer{
+  background-color: var(--cor2);
+  padding: 50px;
+}
+.tema{
+  border-radius: 20px;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border-color: var(--cor2);
+  cursor: pointer;
+}
+
+.imagemTema{
+  width: 100%;
+}
+
+.user{
+  background-color: var(--cor2);
+  border-radius: 29px;
+  align-items: end;
+}
+
+.user:hover{
+  background-color: var(--cor1);
+  border-radius: 29px;
+}
+
+.body-clima {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: rgb(32, 152, 152);
+  /*height: 100vh;
+  margin: 0;*/
+  height: 500px;
+}
+
+.widget-Clima {
+  margin: 5%;
+}
+
+.input-with-icon {
+  padding-left: 15px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+  background-size: 20px;
+  border-color: var(--cor1);
+  border-radius: 10px;
+  
+}
+
+.Pesquisar{
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  margin-right: 2%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-top: 2px;
+  margin-bottom: -11px;
+}
+
+nav {
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  margin-top: 5px;
+  align-items: end;
+  padding: 20px;
+  white-space: nowrap;
+  
+}
+
+nav > a{
+  color: var(--cor1);
+  padding: 5px 20px; /* Adicione margens horizontalmente para espaçamento */
+  text-decoration: none;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  font-weight: 700px;
+  margin: 0 10px;
+  border-bottom: 2px solid transparent;
+  display: flex;
+  
+}
+
+nav > a:hover {
+  color: var(--cor2);
+  text-decoration: underline;
+  text-decoration-color: var(--cor2) ;
+  text-decoration-style: wavy;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: end; /* Isso centraliza verticalmente os itens */
+  padding: 0 20px;
+}
+
+.instagram{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: auto;
+  padding: auto;
+  text-decoration: none;
+}
+
+.instagram > p{
+  margin-left: 2px;
+  margin-top: 10px;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
